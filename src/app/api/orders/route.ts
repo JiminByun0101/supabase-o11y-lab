@@ -3,7 +3,7 @@ import { signedInClient } from '@/lib/supabase'
 export async function GET() {
   const supabase = await signedInClient()
   const { data, error } = await supabase
-    .from('orders')
+    .from('lab_orders')
     .select('id, item, amount, created_at')
     .order('created_at', { ascending: false })
     .limit(20)
