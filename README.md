@@ -17,7 +17,7 @@ A user signs in with email and password in the browser, sees their own orders, a
    cp .env.example .env.local
    ```
 4. Fill in `.env.local` with your Project URL and Publishable key. It holds only those two values. You sign in with the demo user's email and password in the browser.
-5. `npm run dev`, open http://localhost:3000, and sign in. Until you create the `orders` table in Part 1, the list shows a "table not found" error. That is expected.
+5. `npm run dev`, open http://localhost:3000, and sign in. Until you create the `lab_orders` table in Part 1, the list shows a "table not found" error. That is expected.
 
 You need Node.js 20.9 or later.
 

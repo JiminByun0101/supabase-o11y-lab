@@ -1,1 +1,1 @@
-drop table if exists public.orders;
+drop table if exists public.lab_orders;
