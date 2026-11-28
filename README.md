@@ -27,6 +27,7 @@ You need Node.js 20.9 or later.
 | --- | --- |
 | `supabase/part1/` to `supabase/part4/` | The SQL for each part |
 | `supabase/part2/generate_traffic.mjs` | Sends the same requests the app sends, so the Observability page has data. Run `node supabase/part2/generate_traffic.mjs` from the repo folder |
+| [`supabase/part2/README.md`](supabase/part2/README.md) | Part 2 Health Advisor exercise, manual SQL and cleanup |
 | `supabase/reset.sql` | Removes the demo table so you can start over |
 | branch `part/4_after` | `main` plus the finished tracing code for Part 4 |
 
